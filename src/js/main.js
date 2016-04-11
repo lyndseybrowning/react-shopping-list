@@ -2,6 +2,6 @@ import '../scss/style.scss';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import AnimatedShoppingList from './components/AnimatedShoppingList';
 
-ReactDOM.render(<App name='Lyndsey' />, document.querySelector('#app'));
+ReactDOM.render(<AnimatedShoppingList />, document.getElementById('app'));
