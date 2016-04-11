@@ -50,7 +50,9 @@ export default React.createClass({
       <div>
         <ReactCSSTransitionGroup transitionName="example"
                                  transitionEnterTimeout={300}
-                                 transitionLeaveTimeout={300}>
+                                 transitionLeaveTimeout={300}
+                                 transitionAppear={true}
+                                 transitionAppearTimeout={300}>
           {shoppingItems}
         </ReactCSSTransitionGroup>
         <input type="text" value={this.state.newItem} onKeyDown={this.handleChange} />

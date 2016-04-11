@@ -21,15 +21,19 @@ input {
   width: 120px;
 }
 
-.example-enter {
+.example-enter, .example-appear {
   opacity: 0;
   transform: translateX(-250px);
 }
 
-.example-enter-active {
+.example-enter-active, .example-appear-active {
   opacity: 1;
   transform: translateX(0);
   transition: 0.3s;
+}
+
+.example-appear-active {
+  transition: .5s;
 }
 
 .example-leave {
