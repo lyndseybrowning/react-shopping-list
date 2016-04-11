@@ -3,13 +3,13 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 export default React.createClass({
   getInitialState() {
-    return ({
+    return {
       items: [
         { id: 1, name: 'Milk' },
         { id: 2, name: 'Yoghurt' },
         { id: 3, name: 'Orange Juice' }
       ]
-    });
+    };
   },
 
   handleChange(evt) {
